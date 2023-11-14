@@ -410,13 +410,14 @@ div#sea {
   right: 25px;
 }
 
+
 @media (min-width: 1000px) {
   .icons { left: 30px; }
   .icons .row span { font-size: 56px; }
   #people {
     left: 80px;
     bottom: 70px;
-    width: 160px;
+    width: 250px;
   }
   div#beach {
     background-size: 2000px;
@@ -434,6 +435,29 @@ div#sea {
   }
 }
 
+@media (min-width: 300px) {
+  .icons { left: 30px; }
+  .icons .row span { font-size: 65px; }
+  #people {
+    left: 80px;
+    bottom: 70px;
+    width: 160px;
+  }
+  div#beach {
+    background-size: 2500px;
+  }
+  div#video {
+    right: 365px;
+    bottom: 300px;
+  }
+  div#video iframe {
+    width: 358px;
+    height: 220px;
+  }
+  .moon {
+    right: 230px;
+  }
+}
 
 /* start in sky  */
 
